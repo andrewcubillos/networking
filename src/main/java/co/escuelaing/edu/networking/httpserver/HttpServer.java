@@ -99,7 +99,6 @@ public class HttpServer {
                             + "<title>Title of the document</title>\n" + "</head>"
                             + "<body>"
                             + "My Web Site"
-                            + "<img src=\"https://i1.wp.com/hipertextual.com/wp-content/uploads/2020/04/hipertextual-generador-memes-hace-mas-graciosos-que-humanos-aun-tener-sentido-alguno-2020696204.jpg?fit=1200%2C663&ssl=1\">"
                             + "</body>"
                             + "</html>";
     }

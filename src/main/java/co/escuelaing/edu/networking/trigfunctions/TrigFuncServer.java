@@ -9,21 +9,21 @@ public class TrigFuncServer {
     private static String Function(String num){
         String fun;
         try {
-        System.out.println(funcion);
         
-        double fn = Math.sin((Double.parseDouble(num)));
         
-        Math.toRadians(fn);
+        double fn=Math.toRadians(((Double.parseDouble(num))));
+        System.out.println(fn);
+       
         if(funcion.contains("sin")){
-            System.out.println("sin");
+           
             fn=Math.sin(fn);
         }
         else if (funcion.contains("cos")){
-            System.out.println("cos");
+           
             fn=Math.cos(fn);
         }
         else if (funcion.contains("tan")){
-            System.out.println("tan");
+           
             fn=Math.tan(fn);
         }
         else System.out.println("Función Incorrecta");
